@@ -17,7 +17,7 @@ a img { border: none; }
 a { outline: none; }
 
 /* Clearing floats without extra markup  */
-#page, .wrapper { display: inline-block; }
-#page:after, .wrapper:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
-* html #page, * html .wrapper { height: 1%; }
-#page, .wrapper { display: block; }
+.wrapper { display: inline-block; }
+.wrapper:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+* html .wrapper { height: 1%; }
+.wrapper { display: block; }
