@@ -8,7 +8,7 @@
 @import "lib/reset.css";
 @import "lib/typography.css";
 @import "lib/forms.css";
-@import "lib/plugins.css";
+@import "lib/plugins/tabs.css";
 
 
 /* Page
@@ -34,9 +34,9 @@
 
 #introduction { float: left; width: 480px; margin-right: 130px; }
 
-#resources { float: left; margin-top: 4.5em; width: 230px; }
+#resources { float: left; width: 230px; }
 #resources h3 { color: #888; }
-#resources ul { color: #888; }
+#resources ul, #resources ol { color: #888; }
 #resources ul a { color: #555; }
 
 

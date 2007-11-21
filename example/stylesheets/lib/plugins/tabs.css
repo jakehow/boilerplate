@@ -1,12 +1,10 @@
 /* -------------------------------------------------------------- 
    
-   Boilerplate plugins.css
-   * A basket for common widgets.
+   Tabs
+   * A basic ruleset for beginning tabs
    
 -------------------------------------------------------------- */
 
-/* Tabs
--------------------------------------------------------------- */
 ul.tabs { margin: 0; padding: 0; }
 ul.tabs li { float: left; list-style: none; margin: 0; padding: 0; }
 ul.tabs li a { float: left; display: block; }

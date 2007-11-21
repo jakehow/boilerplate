@@ -33,28 +33,25 @@ h6 { font-size: 1em; }
 -------------------------------------------------------------- */
 
 p { margin: 0 0 1.5em; }
-p.last { margin-bottom: 0; }
-p img { float: left; margin: 1.5em 1.5em 1.5em 0; padding: 0; }
-p img.top { margin-top: 0; } /* Use this if the image is at the top of the <p>. */
 
-ul, ol { margin:0 1.5em 1.5em 1.5em; }
+ul, ol { margin: 0 1.5em 1.5em 1.5em; }
 ul { list-style-type: circle; }
 ol { list-style-type: decimal; }
 
 dl { margin: 0 0 1.5em 0; }
 dl dt { font-weight: bold; }
-dl dd { margin-left: 1.5em;}
+dl dd { margin-left: 1.5em; }
 
 abbr, acronym { border-bottom: 1px dotted #000; }
 address { margin-top: 1.5em; font-style: italic; }
 del { color: #000; }
 
-a:focus, a:hover { color: #000; }
-a { color: #009; text-decoration: underline; }
+a { color: #009; text-decoration: none; }
+a:hover { text-decoration: underline; }
 
-blockquote { margin: 1.5em; color: #000; font-style: italic; }
+blockquote { margin: 1.5em; }
 strong { font-weight: bold; }
-em, dfn { font-style: italic; background: #ffc; }
+em, dfn { font-style: italic; }
 dfn { font-weight: bold; }
 pre, code { margin: 1.5em 0; white-space: pre; }
 pre, code, tt { font: 1em monospace; line-height: 1.5; } 
@@ -77,10 +74,10 @@ caption { background: #ffc; }
 
 .small { font-size: .8em; margin-bottom: 1.875em; line-height: 1.875em; }
 .large { font-size: 1.2em; line-height: 2.5em; margin-bottom: 1.25em; }
-.quiet { color: #666; }
+.quiet { color: #999; }
 
 .hide { display: none; }
-.highlight { background: #ff0; }
+.highlight { background: #ffc; }
 
 .top { margin-top: 0; padding-top: 0; }
 .bottom { margin-bottom: 0; padding-bottom: 0; }
