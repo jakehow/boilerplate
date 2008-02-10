@@ -10,7 +10,7 @@
 #page {}
 
 /* HEADER */
-#header { padding: 20px; background: #444; border-bottom: 2px solid #222; }
+#header { padding: 20px; background: #333; border-bottom: 2px solid #222; }
 #header h1 { margin-bottom: 0; font-size: 20px; line-height: 20px; color: #fff; }
 
 /* NAVIGATION */
