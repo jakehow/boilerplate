@@ -7,24 +7,32 @@
 
 
 /* PAGE */
-#page { margin: 0 auto; width: 950px; }
+#page {}
 
 /* HEADER */
-#header { margin-top: 20px; }
-#header .tabs { border-bottom: 1px solid #ddd; }
-#header .tabs li { margin-right: 1px; }
-#header .tabs a { padding: 5px 15px; background: #ddd; color: #666; text-decoration: none; }
+#header { padding: 20px; background: #444; border-bottom: 2px solid #222; }
+#header h1 { margin-bottom: 0; font-size: 20px; line-height: 20px; color: #fff; }
+
+/* NAVIGATION */
+#navigation { padding: 0 10px; background: #ddd; border-bottom: 2px solid #bbb; }
+#navigation .tabs a { padding: 5px 10px; color: #666; text-decoration: none; }
+#navigation .tabs a:hover { background: #bbb; color: #333; }
 
 /* BODY */
-#body { margin-top: 20px; }
+#body { padding: 20px; }
+
+/* INTRODUCTION */
 #introduction { float: left; width: 480px; margin-right: 130px; }
+
+/* RESOURCES */
 #resources { float: left; margin-top: 10px; width: 230px; }
 #resources h3 { color: #888; }
 #resources ul, #resources ol { color: #888; }
 #resources ul a { color: #555; }
 
 /* FOOTER */
-#footer { border-top: 1px solid #eee; margin-top: 20px; }
-#footer .tabs { width: 405px; border-top: 3px solid #eee; }
-#footer .tabs a { padding: 10px 30px 10px 0; color: #666; text-decoration: none; }
+#footer { padding: 10px 20px; border-top: 1px solid #eee; }
+#footer .tabs { font-size: 13px; }
+#footer .tabs li { margin-right: 20px; }
+#footer .tabs a { color: #999; text-decoration: none; }
 #footer p.quiet { color: #ccc; }

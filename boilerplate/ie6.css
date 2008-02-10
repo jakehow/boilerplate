@@ -2,9 +2,5 @@
    IE6 HACKS
 -------------------------------------------------------------- */
 
-/* Make sure the layout is centered in IE5 */
-body { text-align: center; }
-#page { text-align: left; }
-
 /* Keeps IE6 from cutting pulled/pushed images */
 ul, ol { position: relative; }

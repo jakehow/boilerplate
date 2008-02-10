@@ -29,7 +29,7 @@ h6 { font-size: 14px; line-height: 20px; font-weight: bold; }
 
 /* TEXT ELEMENTS */
 p, ul, ol, dl { margin-bottom: 20px; font-size: 14px; line-height: 20px; }
-ul, ol { padding-left: 10px;}
+ul, ol { padding-left: 20px;}
 ul { list-style-type: circle; }
 ol { list-style-type: decimal; }
 dl dt { font-weight: bold; }
