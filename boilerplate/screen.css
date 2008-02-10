@@ -1,17 +1,9 @@
 /* -------------------------------------------------------------- 
-  
-   Boilerplate Screen Styles
-   * Version:   0.5 (2007-11-19)
-   
+   SCREEN
 -------------------------------------------------------------- */
 
-@import "lib/reset.css";
-@import "lib/typography.css";
-@import "lib/forms.css";
-@import "lib/plugins/tabs.css";
+@import "boilerplate.css";
+@import "plugins.css";
 
 
-/* Site
--------------------------------------------------------------- */
-  
-  /* Put your site styles here */
+/* Put your site styles here */
